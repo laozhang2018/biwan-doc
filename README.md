@@ -11,11 +11,11 @@
 ## 目录
 * [准备工作](#准备工作)
 * [授权登录](#授权登录)
-  * [H5授权登录](H5授权登录)
-  * [Android授权登录](Android授权登录)
+  * [H5授权登录](#H5授权登录)
+  * [Android授权登录](#Android授权登录)
 * [支付](#支付)
-  * [H5支付](H5支付)
-  * [Android支付](Android支付)
+  * [H5支付](#H5支付)
+  * [Android支付](#Android支付)
 
 
 ### 准备工作
@@ -39,9 +39,9 @@
     
     4. 获取到的用户基本数据中OpenID可作为用户唯一识别标识。
 
-客户端SDK具体使用说明请下载文档及相应示例查看。
+[客户端SDK具体使用说明请下载文档及相应示例查看。](#readme)
 
-#### H5授权登录
+### H5授权登录
 
 H5授权登录时序图参考如下：  
 ![图片加载失败，请刷新页面](https://biwan.wanlege.com/source/app/h5-auth.jpg "币游宝H5授权登录时序图")
@@ -73,7 +73,7 @@ _BYBApiInit() {
 },
 ```
 
-#### Android授权登录
+### Android授权登录
 
 APP授权登录时序图参考如下：  
 ![图片加载失败，请刷新页面](https://biwan.wanlege.com/source/app/app-auth.jpg "币游宝APP授权登录时序图")
@@ -136,18 +136,18 @@ BYBSDK.authorise(); //授权接口，调用后会拉起币游宝App，并显示�
     5. 支付完成后，币游宝App会返回支付结果；
 
 
-客户端SDK具体使用说明请下载文档及相应示例查看。
+[客户端SDK具体使用说明请下载文档及相应示例查看。](#readme)
 
 H5和APP的支付流程相同，支付时序图参考如下：  
 ![图片加载失败，请刷新页面](https://biwan.wanlege.com/source/app/pay.jpg "币游宝支付时序图")
 
-#### H5支付
+### H5支付
 
 ```javascript
 BYBApi.pay(prepayid, nonce, timestamp, sign); //H5支付接口，调用后会拉起币游宝App，并显示支付界面
 ```
 
-#### Android支付
+### Android支付
 
 ```java
 //Android支付接口，调用后会拉起币游宝App，并显示支付界面
