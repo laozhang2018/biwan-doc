@@ -6,7 +6,7 @@
 
 客户端SDK接入示例1（该示例由cocos creaotr编写）：https://github.com/MonkeyJacky/byb_sdk_test_sample.git
 
-客户端SDK接入示例2（该示例由android studio原生编写）：
+客户端SDK接入示例2（该示例由android studio原生编写）：https://github.com/MonkeyJacky/BYBSDKSample.git
 
 ## 目录
 
